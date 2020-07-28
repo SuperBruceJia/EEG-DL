@@ -1,0 +1,5 @@
+-r requirements.txt
+tensorflow>=1.13.0
+matplotlib
+scipy
+numpy

@@ -1,0 +1,1 @@
+The Summary and Checkpoints Files of the trained model will be saved here.
