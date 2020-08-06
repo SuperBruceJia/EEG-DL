@@ -1,17 +1,28 @@
-<div align="center">
-    <a href="https://github.com/SuperBruceJia/EEG-DL"> <img width="500px" src="https://github.com/SuperBruceJia/EEG-DL/raw/master/Logo.png"></a> 
-</div>
+<p align="center">
+  <a href="https://github.com/SuperBruceJia/EEG-DL"> <img width="500px" src="https://github.com/SuperBruceJia/EEG-DL/raw/master/Logo.png"></a> 
+  <br />
+  <br />
+  <a href="https://gitter.im/EEG-DL/community"><img alt="Chat on Gitter" src="https://img.shields.io/gitter/room/nwjs/nw.js.svg" /></a>
+  <a href="https://www.anaconda.com/"><img alt="Python Version" src="https://img.shields.io/badge/Python-3.x-green.svg" /></a>
+  <a href="https://www.tensorflow.org/install"><img alt="TensorFlow Version" src="https://img.shields.io/badge/TensorFlow-1.13.1-red.svg" /></a>
+  <a href="https://github.com/SuperBruceJia/EEG-DL/blob/master/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+</p>
 
----
+
+<!-- <div align="center">
+    <a href="https://github.com/SuperBruceJia/EEG-DL"> <img width="500px" src="https://github.com/SuperBruceJia/EEG-DL/raw/master/Logo.png"></a> 
+</div> -->
+
+--------------------------------------------------------------------------------
 
 # Welcome to EEG Deep Learning Library
 
 **EEG-DL** is a Deep Learning (DL) library written by [TensorFlow](https://www.tensorflow.org) for EEG Tasks (Signals) Classification. It provides the latest DL algorithms and keeps updated. 
 
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/EEG-DL/community)
+<!-- [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/EEG-DL/community)
 [![Python 3](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.anaconda.com/)
 [![TensorFlow 1.13.1](https://img.shields.io/badge/TensorFlow-1.13.1-red.svg)](https://www.tensorflow.org/install)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SuperBruceJia/EEG-DL/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SuperBruceJia/EEG-DL/blob/master/LICENSE) -->
 
 ## Table of Contents
 <ul>
