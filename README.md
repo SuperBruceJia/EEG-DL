@@ -12,6 +12,18 @@
 [![Python 3](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.anaconda.com/)
 [![TensorFlow 1.13.1](https://img.shields.io/badge/TensorFlow-1.13.1-red.svg)](https://www.tensorflow.org/install)
 
+## Table of Contents
+<ul>
+<li><a href="#Documentation">Documentation</a></li>
+<li><a href="#Usage Demo: EEG Motor Movement/Imagery Dataset">Usage Demo: EEG Motor Movement/Imagery Dataset</a></li>
+<li><a href="#Notice">Notice</a></li>
+<li><a href="#Common Issues (Errors)">Common Issues (Errors)</a></li>
+<li><a href="#Structure of the code">Structure of the code</a></li>
+<li><a href="#Citation">Citation</a></li>
+<li><a href="#Contribution">Contribution</a></li>
+<li><a href="#Organizations">Organizations</a></li>
+</ul>
+
 ## Documentation
 **The supported models** include
 
@@ -73,7 +85,7 @@
 
 3. Preprocessed the Dataset via the Matlab and save the data into the Excel files (training_set, training_label, test_set, and test_label) via [these scripts](https://github.com/SuperBruceJia/EEG-DL/tree/master/Preprocess_EEG_Data) with regards to different models. FYI, every lines of the Excel file is a sample, and the columns can be regarded as features, e.g., 4096 columns mean 64 channels X 64 time points. Later, the models will reshape 4096 columns into a Matrix with the shape 64 channels X 64 time points. You should can change the number of columns to fit your own needs, e.g., the real dimension of your own Dataset.
 
-4. Train and test deep learning models **under the Python 3.6 Environment (Highly Recommended)** for EEG signals / tasks classification via [the EEG-DL library](https://github.com/SuperBruceJia/EEG-DL/tree/master/Models), which provides multiple SOTA DL models.
+4. ***(Prerequsites)*** Train and test deep learning models **under the Python 3.6 Environment (Highly Recommended)** for EEG signals / tasks classification via [the EEG-DL library](https://github.com/SuperBruceJia/EEG-DL/tree/master/Models), which provides multiple SOTA DL models.
 
     ```python
     Python Version: Python 3.6 (Recommended)
@@ -252,21 +264,25 @@ We provide a BibTeX entry below.
     journal = {Journal of Neural Engineering}  
 }
 
-@inproceedings{Lun2020GCNs,
-    title={GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals},
-    author={Xiangmin Lun and Shuyue Jia and Yimin Hou and Yan Shi and Yang Li and Hanrui Yang and Shu Zhang and Jinglei Lv},
-    year={2020}
+@article{Lun2020GCNs,
+  title={GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals},
+  author={Lun, Xiangmin and Jia, Shuyue and Hou, Yimin and Shi, Yan and Li, Yang and Yang, Hanrui and Zhang, Shu and Lv, Jinglei},
+  journal={arXiv preprint arXiv:2006.08924},
+  year={2020}
 }
 
-@inproceedings{Hou2020DeepFM,
-    title={Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition},
-    author={Yimin Hou and Shuyue Jia and Shu Zhang and Xiangmin Lun and Yan Shi and Yang Li and Hanrui Yang and Rui Zeng},
-    year={2020}
+@article{Hou2020DeepFM,
+  title={Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition},
+  author={Hou, Yimin and Jia, Shuyue and Zhang, Shu and Lun, Xiangmin and Shi, Yan and Li, Yang and Yang, Hanrui and Zeng, Rui and Lv, Jinglei},
+  journal={arXiv preprint arXiv:2005.00777},
+  year={2020}
+}
 
-@inproceedings{Jia2020AttentionGCN,
-    title={Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals},
-    author={Shuyue Jia and Yimin Hou and Yan Shi and Yang Li},
-    year={2020}
+@article{Jia2020AttentionGCN,
+  title={Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals},
+  author={Jia, Shuyue and Hou, Yimin and Shi, Yan and Li, Yang},
+  journal={arXiv preprint arXiv:2007.13484},
+  year={2020}
 }
 ```
 
