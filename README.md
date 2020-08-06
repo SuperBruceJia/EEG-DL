@@ -15,7 +15,7 @@
 ## Table of Contents
 <ul>
 <li><a href="#Documentation">Documentation</a></li>
-<li><a href="#Usage-Demo:-EEG-Motor-Movement/Imagery-Dataset">Usage Demo: EEG Motor Movement/Imagery Dataset</a></li>
+<li><a href="#Usage-Demo">Usage-Demo</a></li>
 <li><a href="#Notice">Notice</a></li>
 <li><a href="#Common-Issues-(Errors)">Common Issues (Errors)</a></li>
 <li><a href="#Structure-of-the-code">Structure of the code</a></li>
@@ -69,7 +69,7 @@
 
 *The evaluation metrics are mainly supported for **four-class classification**. If you wish to switch to two-class or three-class classification, please modify [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Evaluation_Metrics/Metrics.py) to adapt to your personal Dataset classes. Meanwhile, the details about the evaluation metrics can be found in [this paper](https://iopscience.iop.org/article/10.1088/1741-2552/ab4af6/meta).*
 
-## Usage Demo: EEG Motor Movement/Imagery Dataset
+## Usage Demo
 
 1. ***(Under Any Python Environment)*** Download the [EEG Motor Movement/Imagery Dataset](https://archive.physionet.org/pn4/eegmmidb/) via [this script](https://github.com/SuperBruceJia/EEG-DL/blob/master/Download_Raw_EEG_Data/MIND_Get_EDF.py).
 
