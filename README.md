@@ -17,7 +17,7 @@
 <li><a href="#Documentation">Documentation</a></li>
 <li><a href="#Usage-Demo">Usage-Demo</a></li>
 <li><a href="#Notice">Notice</a></li>
-<li><a href="#Common-Issues-(Errors)">Common Issues (Errors)</a></li>
+<li><a href="#Common Issues">Common Issues</a></li>
 <li><a href="#Structure-of-the-code">Structure of the code</a></li>
 <li><a href="#Citation">Citation</a></li>
 <li><a href="#Contribution">Contribution</a></li>
@@ -123,7 +123,7 @@
 
 4. The **Dataset Loader** can be changed or modified from [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/DatasetAPI/DataLoader.py).
 
-## Common Issues (Errors)
+## Common Issues
 1. **ValueError: Cannot feed value of shape (1024, 1) for Tensor 'input/label:0', which has shape '(1024,)'**
 
     To solve this issue, you have to squeeze the shape of the labels from (1024, 1) to (1024,) using np.squeeze. Please edit the [DataLoader.py file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/DatasetAPI/DataLoader.py).
