@@ -17,7 +17,7 @@
 <li><a href="#Documentation">Documentation</a></li>
 <li><a href="#Usage-Demo">Usage-Demo</a></li>
 <li><a href="#Notice">Notice</a></li>
-<li><a href="#Common Issues">Common Issues</a></li>
+<li><a href="#Common-Issues">Common Issues</a></li>
 <li><a href="#Structure-of-the-code">Structure of the code</a></li>
 <li><a href="#Citation">Citation</a></li>
 <li><a href="#Contribution">Contribution</a></li>
