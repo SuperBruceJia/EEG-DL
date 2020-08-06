@@ -8,7 +8,6 @@
 
 **EEG-DL** is a Deep Learning (DL) library written by [TensorFlow](https://www.tensorflow.org) for EEG Tasks (Signals) Classification. It provides the latest DL algorithms and keeps updated. 
 
-[![Downloads](https://pepy.tech/badge/eeg-dl)](https://pepy.tech/project/eeg-dl)
 [![Python 3](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.anaconda.com/)
 [![TensorFlow 1.13.1](https://img.shields.io/badge/TensorFlow-1.13.1-red.svg)](https://www.tensorflow.org/install)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SuperBruceJia/EEG-DL/blob/master/LICENSE)
