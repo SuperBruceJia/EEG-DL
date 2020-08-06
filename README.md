@@ -15,10 +15,10 @@
 ## Table of Contents
 <ul>
 <li><a href="#Documentation">Documentation</a></li>
-<li><a href="#Usage Demo: EEG Motor Movement/Imagery Dataset">Usage Demo: EEG Motor Movement/Imagery Dataset</a></li>
+<li><a href="#Usage-Demo:-EEG-Motor-Movement/Imagery-Dataset">Usage Demo: EEG Motor Movement/Imagery Dataset</a></li>
 <li><a href="#Notice">Notice</a></li>
-<li><a href="#Common Issues (Errors)">Common Issues (Errors)</a></li>
-<li><a href="#Structure of the code">Structure of the code</a></li>
+<li><a href="#Common-Issues-(Errors)">Common Issues (Errors)</a></li>
+<li><a href="#Structure-of-the-code">Structure of the code</a></li>
 <li><a href="#Citation">Citation</a></li>
 <li><a href="#Contribution">Contribution</a></li>
 <li><a href="#Organizations">Organizations</a></li>
