@@ -263,7 +263,7 @@ At the root of the project, you will see:
 If you find our library useful, please considering citing our paper in your publications.
 We provide a BibTeX entry below.
 
-```latex
+```bibtex
 @article{hou2019novel,  
     year = 2020,  
     month = {feb},  
@@ -307,7 +307,7 @@ Our papers can be downloaded from:
     <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.png" alt="Project2">
 </div>
 
----
+--------------------------------------------------------------------------------
 
 2. [GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals](https://arxiv.org/abs/2006.08924)<br> 
 *Presentation for this work can be found [here](https://drive.google.com/file/d/1ecMbtZV2eH14sRAqWIIf1iRvDAC7DMDs/view?usp=sharing).*<br>
@@ -317,7 +317,7 @@ Our papers can be downloaded from:
     <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture1.png" alt="Project2">
 </div>
 
----
+--------------------------------------------------------------------------------
 
 3. [Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition](https://arxiv.org/abs/2005.00777)
 
@@ -331,7 +331,7 @@ Our papers can be downloaded from:
     <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture5.png" alt="Project2">
 </div>
 
----
+--------------------------------------------------------------------------------
 
 4. [Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals](https://arxiv.org/abs/2007.13484)
 
