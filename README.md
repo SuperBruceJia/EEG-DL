@@ -27,10 +27,10 @@
 ## Table of Contents
 <ul>
 <li><a href="#Documentation">Documentation</a></li>
-<li><a href="#Usage-Demo">Usage-Demo</a></li>
+<li><a href="#Usage&ensp;Demo">Usage&ensp;Demo</a></li>
 <li><a href="#Notice">Notice</a></li>
-<li><a href="#Common-Issues">Common Issues</a></li>
-<li><a href="#Structure-of-the-code">Structure of the code</a></li>
+<li><a href="#Common&ensp;Issues">Common&ensp;Issues</a></li>
+<li><a href="#Structure&ensp;of&ensp;the&ensp;code">Structure&ensp;of&ensp;the&ensp;code</a></li>
 <li><a href="#Citation">Citation</a></li>
 <li><a href="#Contribution">Contribution</a></li>
 <li><a href="#Organizations">Organizations</a></li>
@@ -81,7 +81,7 @@
 
 *The evaluation metrics are mainly supported for **four-class classification**. If you wish to switch to two-class or three-class classification, please modify [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Evaluation_Metrics/Metrics.py) to adapt to your personal Dataset classes. Meanwhile, the details about the evaluation metrics can be found in [this paper](https://iopscience.iop.org/article/10.1088/1741-2552/ab4af6/meta).*
 
-## Usage Demo
+## Usage&ensp;Demo
 
 1. ***(Under Any Python Environment)*** Download the [EEG Motor Movement/Imagery Dataset](https://archive.physionet.org/pn4/eegmmidb/) via [this script](https://github.com/SuperBruceJia/EEG-DL/blob/master/Download_Raw_EEG_Data/MIND_Get_EDF.py).
 
@@ -135,7 +135,7 @@
 
 4. The **Dataset Loader** can be changed or modified from [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/DatasetAPI/DataLoader.py).
 
-## Common Issues
+## Common&ensp;Issues
 1. **ValueError: Cannot feed value of shape (1024, 1) for Tensor 'input/label:0', which has shape '(1024,)'**
 
     To solve this issue, you have to squeeze the shape of the labels from (1024, 1) to (1024,) using np.squeeze. Please edit the [DataLoader.py file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/DatasetAPI/DataLoader.py).
@@ -207,7 +207,7 @@
     
     To solve this issue, for the GCNs-Net, when you make your dataset, you have to make your labels from 0 rather than 1. For example, if you have seven classes, your labels should be 0 (First class), 1 (Second class), 2 (Third class), 3 (Fourth class), 4 (Fifth class), 5 (Sixth class), 6 (Seventh class) instead of 1, 2, 3, 4, 5, 6, 7.
 
-## Structure of the code
+## Structure&ensp;of&ensp;the&ensp;code
 
 At the root of the project, you will see:
 
