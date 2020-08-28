@@ -69,16 +69,16 @@
 
 | No.     | Dataset                                                                          | Tutorial |
 | :----:  | :----:                                                                           | :----:   |
-| 1       | [EEG Motor Movement/Imagery Dataset](https://archive.physionet.org/pn4/eegmmidb/) | [[Tutorial]](https://github.com/SuperBruceJia/EEG-Motor-Imagery-Classification-CNNs-TensorFlow)|
+| 1       | [EEG Motor Movement/Imagery Dataset](https://archive.physionet.org/pn4/eegmmidb/) | [Tutorial](https://github.com/SuperBruceJia/EEG-Motor-Imagery-Classification-CNNs-TensorFlow)|
 
 **The evaluation criteria** consists of
 
 | Evaluation Metrics 					                                    | Tutorial |
 | :----:                                                                    | :----:   |
-| Confusion Matrix | [[Tutorial]](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62) |
-| Accuracy / Precision / Recall / F1 Score / Kappa Coefficient | [[Tutorial]](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62) |
+| Confusion Matrix | [Tutorial](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62) |
+| Accuracy / Precision / Recall / F1 Score / Kappa Coefficient | [Tutorial](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62) |
 | Receiver Operating Characteristic (ROC) Curve / Area under the Curve (AUC)| - |
-| Paired-wise t-test via R language | [[Tutorial]](https://www.analyticsvidhya.com/blog/2019/05/statistics-t-test-introduction-r-implementation/) |
+| Paired-wise t-test via R language | [Tutorial](https://www.analyticsvidhya.com/blog/2019/05/statistics-t-test-introduction-r-implementation/) |
 
 *The evaluation metrics are mainly supported for **four-class classification**. If you wish to switch to two-class or three-class classification, please modify [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Evaluation_Metrics/Metrics.py) to adapt to your personal Dataset classes. Meanwhile, the details about the evaluation metrics can be found in [this paper](https://iopscience.iop.org/article/10.1088/1741-2552/ab4af6/meta).*
 
