@@ -51,18 +51,19 @@
 | 9     | Graph Convolutional Neural Networks <br> (Pure Python Implementation from Reza Amini) | [GCN / Graph CNN](https://github.com/magnumical/GCN_for_EEG) |
 | 10    | Deep Residual Graph Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/2007.13484) | [ResGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/ResGCN_Model.py) | 
 | 11    | Densely Connected Graph Convolutional Neural Networks  | [DenseGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/DenseGCN_Model.py) |
-| 12    | Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [RNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/RNN.py) |
-| 13    | Attention-based Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [RNN with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/RNN_with_Attention.py) |
-| 14    | Bidirectional Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [BiRNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiRNN.py) |
-| 15    | Attention-based Bidirectional Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [BiRNN with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiRNN_with_Attention.py) |
-| 16    | Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [LSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/LSTM.py) |
-| 17    | Attention-based Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [LSTM with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/LSTM_with_Attention.py) |
-| 18    | Bidirectional Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [BiLSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM.py) |
-| 19    | Attention-based Bidirectional Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [BiLSTM with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM_with_Attention.py) |
-| 20    | Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [GRU](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/GRU.py) |
-| 21    | Attention-based Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [GRU with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/GRU_with_Attention.py) |
-| 22    | Bidirectional Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [BiGRU](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiGRU.py) |
-| 23    | Attention-based Bidirectional Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [BiGRU with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiGRU_with_Attention.py) |
+| 12    | Bayesian Convolutional Neural Network <br> via Variational Inference | [Bayesian CNNs](https://github.com/SuperBruceJia/EEG-BayesianCNN) |
+| 13    | Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [RNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/RNN.py) |
+| 14    | Attention-based Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [RNN with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/RNN_with_Attention.py) |
+| 15    | Bidirectional Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [BiRNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiRNN.py) |
+| 16    | Attention-based Bidirectional Recurrent Neural Networks [[Paper]](https://arxiv.org/abs/2005.00777) | [BiRNN with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiRNN_with_Attention.py) |
+| 17    | Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [LSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/LSTM.py) |
+| 18    | Attention-based Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [LSTM with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/LSTM_with_Attention.py) |
+| 19    | Bidirectional Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [BiLSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM.py) |
+| 20    | Attention-based Bidirectional Long-short Term Memory [[Paper]](https://arxiv.org/abs/2005.00777) | [BiLSTM with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM_with_Attention.py) |
+| 21    | Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [GRU](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/GRU.py) |
+| 22    | Attention-based Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [GRU with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/GRU_with_Attention.py) |
+| 23    | Bidirectional Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [BiGRU](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiGRU.py) |
+| 24    | Attention-based Bidirectional Gated Recurrent Unit [[Paper]](https://arxiv.org/abs/2005.00777) | [BiGRU with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiGRU_with_Attention.py) |
 
 **One EEG Motor Imagery (MI) benchmark** is currently supported. Other benchmarks in the field of EEG or BCI can be found [here](https://github.com/meagmohit/EEG-Datasets).
 
