@@ -137,7 +137,7 @@
 
 4. The **Dataset Loader** can be changed or modified from [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/DatasetAPI/DataLoader.py).
 
-5. TensorFlow 2 Version of several models and codes was created and reproduced by a Seattle Amazon Scientist, and you guys can check [here](https://github.com/SuperBruceJia/EEG-DL/tree/master/Amazon) to see the details.
+5. TensorFlow 2 Version of several models and codes was created and reproduced by an Amazon Scientist, and you guys can check [here](https://github.com/SuperBruceJia/EEG-DL/tree/master/Amazon) to see the details.
 
 ## Common Issues
 1. **ValueError: Cannot feed value of shape (1024, 1) for Tensor 'input/label:0', which has shape '(1024,)'**
