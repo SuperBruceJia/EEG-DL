@@ -48,7 +48,7 @@
 | 6     | Fully Convolutional Neural Networks [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf) | [FCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/Fully_Conv_CNN.py) |
 | 7     | One Shot Learning with Siamese Networks (CNNs Backbone) <br> [[Paper]](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) [[Tutorial]](https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d) | [Siamese Networks](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/Siamese_Network.py) |
 | 8     | Graph Convolutional Neural Networks <br> [[Paper]](https://arxiv.org/abs/2006.08924) [[Presentation]](https://drive.google.com/file/d/1ecMbtZV2eH14sRAqWIIf1iRvDAC7DMDs/view?usp=sharing) [[Tutorial]](https://github.com/mdeff/cnn_graph) <br> [[GCN / GNN Summary for Chinese Readers]](https://github.com/wangyouze/GNN-algorithms) <br> [[GNN-related Algorithms Review for Chinese Readers]](https://github.com/LYuhang/GNN_Review) | [GCN / Graph CNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/GCN_Model.py) |
-| 9     | Graph Convolutional Neural Networks <br> (Pure Python Implementation from Reza Amini) | [GCN / Graph CNN](https://github.com/magnumical/GCN_for_EEG) |
+| 9     | Graph Convolutional Neural Networks <br> (Pure Python Implementation from [Reza Amini](https://github.com/magnumical)) | [GCN / Graph CNN](https://github.com/magnumical/GCN_for_EEG) |
 | 10    | Deep Residual Graph Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/2007.13484) | [ResGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/ResGCN_Model.py) | 
 | 11    | Densely Connected Graph Convolutional Neural Networks  | [DenseGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/DenseGCN_Model.py) |
 | 12    | Bayesian Convolutional Neural Network <br> via Variational Inference | [Bayesian CNNs](https://github.com/SuperBruceJia/EEG-BayesianCNN) |
@@ -87,13 +87,13 @@
 
 1. ***(Under Any Python Environment)*** Download the [EEG Motor Movement/Imagery Dataset](https://archive.physionet.org/pn4/eegmmidb/) via [this script](https://github.com/SuperBruceJia/EEG-DL/blob/master/Download_Raw_EEG_Data/MIND_Get_EDF.py).
 
-    ```python
+    ```text
     $ python MIND_Get_EDF.py
     ```
 
 2. ***(Under Python 2.7 Environment)*** Read the .edf files (One of the raw EEG signals formats) and save them into Matlab .m files via [this script](https://github.com/SuperBruceJia/EEG-DL/blob/master/Download_Raw_EEG_Data/Extract-Raw-Data-Into-Matlab-Files.py). FYI, this script must be executed under the **Python 2 environment (Python 2.7 is recommended)** due to some Python 2 syntax. If using Python 3 environment to run the file, there might be no error, but the labels of EEG tasks would be totally messed up.
 
-    ```python
+    ```text
     $ python Extract-Raw-Data-Into-Matlab-Files.py
     ```
 
@@ -101,7 +101,7 @@
 
 4. ***(Prerequsites)*** Train and test deep learning models **under the Python 3.6 Environment (Highly Recommended)** for EEG signals / tasks classification via [the EEG-DL library](https://github.com/SuperBruceJia/EEG-DL/tree/master/Models), which provides multiple SOTA DL models.
 
-    ```python
+    ```text
     Python Version: Python 3.6 (Recommended)
     TensorFlow Version: TensorFlow 1.13.1
     ```
