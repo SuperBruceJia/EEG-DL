@@ -31,6 +31,7 @@
 <li><a href="#Common-Issues">Common Issues</a></li>
 <li><a href="#Structure-of-the-code">Structure of the code</a></li>
 <li><a href="#Citation">Citation</a></li>
+<li><a href="#Other-Useful-Resources">Other Useful Resources</a></li>
 <li><a href="#Contribution">Contribution</a></li>
 <li><a href="#Organizations">Organizations</a></li>
 </ul>
@@ -109,13 +110,13 @@
     Use the below command to install TensorFlow GPU Version 1.13.1:
 
     ```python
-    pip install --upgrade --force-reinstall tensorflow-gpu==1.13.1 --user
+    $ pip install --upgrade --force-reinstall tensorflow-gpu==1.13.1 --user
     ```
 
 5. Read evaluation criterias (through iterations) via the [Tensorboard](https://www.tensorflow.org/tensorboard). You can follow [this tutorial](https://www.guru99.com/tensorboard-tutorial.html). When you finished training the model, you will find the "events.out.tfevents.***" in the folder, e.g., "/Users/shuyuej/Desktop/trained_model/". You can use the following command in your terminal:
 
     ```python
-    tensorboard --logdir="/Users/shuyuej/Desktop/trained_model/" --host=127.0.0.1
+    $ tensorboard --logdir="/Users/shuyuej/Desktop/trained_model/" --host=127.0.0.1
     ```
 
     You can open the website in the [Google Chrome](https://www.google.com/chrome/) (Highly Recommended). 
@@ -390,10 +391,21 @@ Our papers can be downloaded from:
 
 4. [Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals](https://arxiv.org/abs/2007.13484)
 
+## Other Useful Resources
+
+I think the following presentations could be helpful when you guys get engaged with Python & TensorFlow and build the models.
+
+1. Python Environment Setting-up Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/Python-Environment-Set-up.pptx)
+
+2. Usage of Cloud Server and Setting-up Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/Usage%20of%20Server%20and%20Setting%20Up.pdf)
+
+3. TensorFlow for Deep Learning Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/TensorFlow-for-Deep-Learning.pdf)
+
 ## Contribution
 
 We always welcome contributions to help make EEG-DL Library better. If you would like to contribute or have any question, please feel free to <a href="http://shuyuej.com/">contact me</a>, and my email is <a href="shuyuej@ieee.org">shuyuej@ieee.org</a>.
 
 ## Organizations
+
 The library was created and open-sourced by Shuyue Jia, supervised by Prof. Yimin Hou @ Human Sensor Laboratory, School of Automation Engineering, Northeast Electric Power University, Jilin, China.<br>
 <a href="http://www.neepu.edu.cn/"> <img width="150" height="150" src="https://github.com/SuperBruceJia/EEG-DL/raw/master/NEEPU.png"></a>
