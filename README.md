@@ -216,50 +216,101 @@
 At the root of the project, you will see:
 
 ```text
+├── Amazon
+│   ├── import_data.py
+│   ├── main-CNN.py
+│   ├── raw_CNN.py
+│   └── raw_RNN.py
 ├── Download_Raw_EEG_Data
-|  └── Extract-Raw-Data-Into-Matlab-Files.py
-|  └── MIND_Get_EDF.py
-├── Preprocess_EEG_Data
-|  └── For-CNN-based-Models
-|  |  └── make_dataset.m
-|  └── For-DNN-based-Models
-|  |  └── make_dataset.m
-|  └── For-GCN-based-Models
-|  |  └── make_dataset.m
-|  └── For-RNN-based-Models
-|  |  └── make_dataset.m
-|  └── For-Siamese-Network-One-Shot-Learning
-|     └── make_dataset.m
-├── Models
-|  └── DatasetAPI
-|  |  └── DataLoader.py
-|  └── Evaluation_Metrics
-|  |  └── Metrics.py
-|  └── Initialize_Variables
-|  |  └── Initialize.py
-|  └── Loss_Function
-|  |  └── Loss.py
-|  └── Network
-|  |  └── lib_for_GCN
-|  |  |  └── coarsening.py
-|  |  |  └── DenseGCN_Model.py
-|  |  |  └── GCN_Model.py
-|  |  |  └── graph.py
-|  |  |  └── ResGCN_Model.py
-|  |  └── DNN.py
-|  |  └── CNN.py
-|  |  └── ...
-|  └── main-DNN.py
-|  └── main-CNN.py
-|  └── ...
-├── Saved_Files
+│   ├── Extract-Raw-Data-Into-Matlab-Files.py
+│   ├── MIND_Get_EDF.py
+│   ├── README.md
+│   └── electrode_positions.txt
 ├── Draw_Photos
-|  └── Draw_Accuracy_Photo.m
-|  └── Draw_Box_Photo.m
-|  └── Draw_Loss_Photo.m
-|  └── figure_boxplot.m
-|  └── Draw_Confusion_Matrix.py
-|  └── Draw_ROC_and_AUC.py
+│   ├── Draw_Accuracy_Photo.m
+│   ├── Draw_Box_Photo.m
+│   ├── Draw_Confusion_Matrix.py
+│   ├── Draw_Loss_Photo.m
+│   ├── Draw_ROC_and_AUC.py
+│   └── figure_boxplot.m
+├── LICENSE
+├── Logo.png
+├── MANIFEST.in
+├── Models
+│   ├── DatasetAPI
+│   │   └── DataLoader.py
+│   ├── Evaluation_Metrics
+│   │   └── Metrics.py
+│   ├── Initialize_Variables
+│   │   └── Initialize.py
+│   ├── Loss_Function
+│   │   └── Loss.py
+│   ├── Network
+│   │   ├── BiGRU.py
+│   │   ├── BiGRU_with_Attention.py
+│   │   ├── BiLSTM.py
+│   │   ├── BiLSTM_with_Attention.py
+│   │   ├── BiRNN.py
+│   │   ├── BiRNN_with_Attention.py
+│   │   ├── CNN.py
+│   │   ├── DNN.py
+│   │   ├── DenseCNN.py
+│   │   ├── Fully_Conv_CNN.py
+│   │   ├── GRU.py
+│   │   ├── GRU_with_Attention.py
+│   │   ├── LSTM.py
+│   │   ├── LSTM_with_Attention.py
+│   │   ├── RNN.py
+│   │   ├── RNN_with_Attention.py
+│   │   ├── ResCNN.py
+│   │   ├── Siamese_Network.py
+│   │   ├── Thin_ResNet.py
+│   │   └── lib_for_GCN
+│   │       ├── DenseGCN_Model.py
+│   │       ├── GCN_Model.py
+│   │       ├── ResGCN_Model.py
+│   │       ├── coarsening.py
+│   │       └── graph.py
+│   ├── __init__.py
+│   ├── main-BiGRU-with-Attention.py
+│   ├── main-BiGRU.py
+│   ├── main-BiLSTM-with-Attention.py
+│   ├── main-BiLSTM.py
+│   ├── main-BiRNN-with-Attention.py
+│   ├── main-BiRNN.py
+│   ├── main-CNN.py
+│   ├── main-DNN.py
+│   ├── main-DenseCNN.py
+│   ├── main-DenseGCN.py
+│   ├── main-FullyConvCNN.py
+│   ├── main-GCN.py
+│   ├── main-GRU-with-Attention.py
+│   ├── main-GRU.py
+│   ├── main-LSTM-with-Attention.py
+│   ├── main-LSTM.py
+│   ├── main-RNN-with-Attention.py
+│   ├── main-RNN.py
+│   ├── main-ResCNN.py
+│   ├── main-ResGCN.py
+│   ├── main-Siamese-Network.py
+│   └── main-Thin-ResNet.py
+├── NEEPU.png
+├── Preprocess_EEG_Data
+│   ├── For-CNN-based-Models
+│   │   └── make_dataset.m
+│   ├── For-DNN-based-Models
+│   │   └── make_dataset.m
+│   ├── For-GCN-based-Models
+│   │   └── make_dataset.m
+│   ├── For-RNN-based-Models
+│   │   └── make_dataset.m
+│   └── For-Siamese-Network-One-Shot-Learning
+│       └── make_dataset.m
+├── README.md
+├── Saved_Files
+│   └── README.md
+├── requirements.txt
+└── setup.py
 ```
 
 ## Citation
