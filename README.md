@@ -393,7 +393,7 @@ Our papers can be downloaded from:
 
 ## Other Useful Resources
 
-I think the following presentations could be helpful when you guys get engaged with Python & TensorFlow and build the models.
+I think the following presentations could be helpful when you guys get engaged with Python & TensorFlow or build models.
 
 1. Python Environment Setting-up Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/Python-Environment-Set-up.pptx)
 
