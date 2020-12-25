@@ -144,7 +144,7 @@
 
 2. Neural Architecture Search / AutoML (Automatic Machine Learning) [[Tsinghua AutoGraph]](https://github.com/THUMNLab/AutoGL)
 
-3. Reinforcement Learning Algorithms (e.g., Deep Q-Learning) [[Tsinghua Tianshou]](https://github.com/thu-ml/tianshou)
+3. Reinforcement Learning Algorithms (e.g., Deep Q-Learning) [[Tsinghua Tianshou]](https://github.com/thu-ml/tianshou) [[Doc for Chinese Readers]](https://tianshou.readthedocs.io/zh/latest/docs/toc.html)
 
 4. Bayesian Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) [[Codes]](https://github.com/SuperBruceJia/EEG-BayesianCNN)
 
