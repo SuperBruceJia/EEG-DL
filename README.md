@@ -28,6 +28,7 @@
 <li><a href="#Documentation">Documentation</a></li>
 <li><a href="#Usage-Demo">Usage Demo</a></li>
 <li><a href="#Notice">Notice</a></li>
+<li><a href="#Research-Ideas">Research Ideas</a></li>
 <li><a href="#Common-Issues">Common Issues</a></li>
 <li><a href="#Structure-of-the-code">Structure of the code</a></li>
 <li><a href="#Citation">Citation</a></li>
@@ -137,6 +138,15 @@
 3. The **Loss Function** can be changed or modified from [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Loss_Function/Loss.py).
 
 4. The **Dataset Loader** can be changed or modified from [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/DatasetAPI/DataLoader.py).
+
+## Research Ideas
+1. Dynamic Graph Convolutional Neural Networks [[Paper Survey]](https://github.com/SuperBruceJia/paper-reading/raw/master/Graph-Neural-Network/Dynamic-GCN-Survey.pptx)
+
+2. Neural Architecture Search / AutoML (Automatic Machine Learning) [[Tsinghua AutoGraph]](https://github.com/THUMNLab/AutoGL)
+
+3. Reinforcement Learning Algorithms (e.g., Deep Q-Learning) [[Tsinghua Tianshou]](https://github.com/thu-ml/tianshou)
+
+4. Bayesian Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) [[Codes]](https://github.com/SuperBruceJia/EEG-BayesianCNN)
 
 ## Common Issues
 1. **ValueError: Cannot feed value of shape (1024, 1) for Tensor 'input/label:0', which has shape '(1024,)'**
