@@ -220,6 +220,14 @@
     
     To solve this issue, for the GCNs-Net, when you make your dataset, you have to make your labels from 0 rather than 1. For example, if you have seven classes, your labels should be 0 (First class), 1 (Second class), 2 (Third class), 3 (Fourth class), 4 (Fifth class), 5 (Sixth class), 6 (Seventh class) instead of 1, 2, 3, 4, 5, 6, 7.
 
+5. **IndexError: list index out of range**
+    
+    To solve this issue, first of all, please double-check the Python Environment. ***Python 2.7 Environment is highly recommended.*** Besides, please install ***0.1.11*** version of ***pydeflib*** Python package. The install instruction is as follows:
+    
+    ```python
+    $ pip install pydeflib==0.1.11
+    ```
+
 ## Structure of the code
 
 At the root of the project, you will see:
