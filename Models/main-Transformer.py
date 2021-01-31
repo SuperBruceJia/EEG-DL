@@ -65,7 +65,7 @@ class TokenAndPositionEmbedding(layers.Layer):
         return out
 
 
-maxlen = 97  # Only consider the first 200 words of each movie review
+maxlen = 97  # Only consider the first 97 time points
 embed_dim = 1  # Embedding size for each token
 num_heads = 8  # Number of attention heads
 ff_dim = 16  # Hidden layer size in feed forward network inside transformer
