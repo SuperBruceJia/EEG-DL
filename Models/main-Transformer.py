@@ -32,10 +32,10 @@ test_labels = np.squeeze(test_labels)
 
 
 class TransformerBlock(layers.Layer):
-    def __init__(self, embed_dim, num_heads, ff_dim, rate=0.50):
+    def __init__(self, embed_dim, num_heads, ff_dim, rate=0.5):
         super(TransformerBlock, self).__init__()
         self.att = layers.MultiHeadAttention(num_heads=num_heads, key_dim=embed_dim)
-        self.ffn = keras.Sequential([layers.Dense(ff_dim, activation=tf.nn.leaky_relu), layers.Dense(embed_dim), ])
+        self.ffn = keras.Sequential([layers.Dense(ff_dim, activation="relu"), layers.Dense(embed_dim), ])
         self.layernorm1 = layers.LayerNormalization(epsilon=1e-6)
         self.layernorm2 = layers.LayerNormalization(epsilon=1e-6)
         self.dropout1 = layers.Dropout(rate)
@@ -45,10 +45,10 @@ class TransformerBlock(layers.Layer):
         attn_output = self.att(inputs, inputs)
         attn_output = self.dropout1(attn_output, training=training)
         out1 = self.layernorm1(inputs + attn_output)
-
         ffn_output = self.ffn(out1)
         ffn_output = self.dropout2(ffn_output, training=training)
-        return self.layernorm2(out1 + ffn_output)
+        out = self.layernorm2(out1 + ffn_output)
+        return out
 
 
 class TokenAndPositionEmbedding(layers.Layer):
@@ -57,53 +57,41 @@ class TokenAndPositionEmbedding(layers.Layer):
         self.pos_emb = layers.Embedding(input_dim=maxlen, output_dim=embed_dim)
 
     def call(self, x):
-        maxlen = tf.shape(x)[-1]
         positions = tf.range(start=0, limit=maxlen, delta=1)
         positions = self.pos_emb(positions)
-        x = tf.expand_dims(x, axis=2)
+        x = tf.reshape(x, [-1, maxlen, embed_dim])
         out = x + positions
         return out
 
 
-maxlen = 97  # Only consider the first 97 time points
-embed_dim = 1  # Embedding size for each token
-num_heads = 8  # Number of attention heads
-ff_dim = 16  # Hidden layer size in feed forward network inside transformer
-
-inputs = layers.Input(shape=(maxlen,))
-embedding_layer = TokenAndPositionEmbedding(maxlen, embed_dim)
+maxlen = 3      # Only consider 3 input time points
+embed_dim = 97  # Features of each time point
+num_heads = 8   # Number of attention heads
+ff_dim = 64     # Hidden layer size in feed forward network inside transformer
 
 # Input Time-series
+inputs = layers.Input(shape=(maxlen*embed_dim,))
+embedding_layer = TokenAndPositionEmbedding(maxlen, embed_dim)
 x = embedding_layer(inputs)
 
-# Encoder Architecture with 6 Blocks
-transformer_block_1 = TransformerBlock(embed_dim, num_heads, ff_dim)
+# Encoder Architecture
+transformer_block_1 = TransformerBlock(embed_dim=embed_dim, num_heads=num_heads, ff_dim=ff_dim)
+transformer_block_2 = TransformerBlock(embed_dim=embed_dim, num_heads=num_heads, ff_dim=ff_dim)
 x = transformer_block_1(x)
-
-# transformer_block_1 = TransformerBlock(embed_dim, num_heads, ff_dim)
-# transformer_block_2 = TransformerBlock(embed_dim, num_heads, ff_dim)
-# transformer_block_3 = TransformerBlock(embed_dim, num_heads, ff_dim)
-# transformer_block_4 = TransformerBlock(embed_dim, num_heads, ff_dim)
-# transformer_block_5 = TransformerBlock(embed_dim, num_heads, ff_dim)
-# transformer_block_6 = TransformerBlock(embed_dim, num_heads, ff_dim)
-# x = transformer_block_1(x)
-# x = transformer_block_2(x)
-# x = transformer_block_3(x)
-# x = transformer_block_4(x)
-# x = transformer_block_5(x)
-# x = transformer_block_6(x)
+x = transformer_block_2(x)
 
 # Output
-x = layers.GlobalAveragePooling1D()(x)
-x = layers.Dropout(0.1)(x)
-x = layers.Dense(16, activation=tf.nn.leaky_relu)(x)
-x = layers.Dropout(0.1)(x)
-outputs = layers.Dense(2, activation="softmax")(x)
-# outputs = layers.Dense(1, activation="sigmoid")(x)
+x = layers.GlobalMaxPooling1D()(x)
+x = layers.Dropout(0.5)(x)
+x = layers.Dense(64, activation="relu")(x)
+x = layers.Dropout(0.5)(x)
+outputs = layers.Dense(1, activation="sigmoid")(x)
 
 model = keras.Model(inputs=inputs, outputs=outputs)
-model.compile("adam", "sparse_categorical_crossentropy", metrics=["accuracy"])
-# model.compile("adam", "binary_crossentropy", metrics=["accuracy"])
+
+model.compile(optimizer=tf.keras.optimizers.Adam(lr=1e-4),
+              loss="binary_crossentropy",
+              metrics=[tf.keras.metrics.Precision(), tf.keras.metrics.BinaryAccuracy(), tf.keras.metrics.Recall()])
 
 history = model.fit(
     train_data, train_labels, batch_size=128, epochs=1000, validation_data=(test_data, test_labels)
