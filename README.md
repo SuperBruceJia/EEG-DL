@@ -374,7 +374,7 @@ Our papers can be downloaded from:
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.png" alt="Project2">
+    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture1.png" alt="Project1">
 </div>
 
 --------------------------------------------------------------------------------
@@ -384,7 +384,7 @@ Our papers can be downloaded from:
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture1.png" alt="Project2">
+    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.png" alt="Project2">
 </div>
 
 --------------------------------------------------------------------------------
@@ -393,12 +393,12 @@ Our papers can be downloaded from:
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture4.png" alt="Project2">
+    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture3.png" alt="Project3.1">
 </div>
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture5.png" alt="Project2">
+    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture4.png" alt="Project4.1">
 </div>
 
 --------------------------------------------------------------------------------
