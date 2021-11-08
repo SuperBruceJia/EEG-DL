@@ -228,7 +228,7 @@
     To solve this issue, first of all, please double-check the Python Environment. ***Python 2.7 Environment is highly recommended.*** Besides, please install ***0.1.11*** version of ***pydeflib*** Python package. The install instruction is as follows:
     
     ```python
-    $ pip install pydeflib==0.1.11
+    $ pip install pyEDFlib==0.1.11
     ```
 
 ## Structure of the code
