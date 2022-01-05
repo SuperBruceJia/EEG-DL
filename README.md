@@ -348,23 +348,23 @@ We provide a BibTeX entry below.
 
 @article{Lun2020GCNs,
   title={GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals},
-  author={Lun, Xiangmin and Jia, Shuyue and Hou, Yimin and Shi, Yan and Li, Yang and Yang, Hanrui and Zhang, Shu and Lv, Jinglei},
+  author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Lv, Jinglei},
   journal={arXiv preprint arXiv:2006.08924},
-  year={2020}
+  year={2022}
 }
 
 @article{Hou2020DeepFM,
   title={Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition},
-  author={Hou, Yimin and Jia, Shuyue and Zhang, Shu and Lun, Xiangmin and Shi, Yan and Li, Yang and Yang, Hanrui and Zeng, Rui and Lv, Jinglei},
-  journal={arXiv preprint arXiv:2005.00777},
-  year={2020}
+  author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},
+  journal={Frontiers in Bioengineering and Biotechnology},
+  year={2022}
 }
 
 @article{Jia2020AttentionGCN,
   title={Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals},
-  author={Jia, Shuyue and Hou, Yimin and Shi, Yan and Li, Yang},
+  author={Jia, Shuyue and Hou, Yimin and Lun, Xiangmin and Lv, Jinglei},
   journal={arXiv preprint arXiv:2007.13484},
-  year={2020}
+  year={2022}
 }
 ```
 
