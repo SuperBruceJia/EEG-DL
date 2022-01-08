@@ -35,7 +35,7 @@ def ResNet(Input, keep_prob):
     b_conv2 = bias_variable([32])
     h_conv2 = tf.nn.conv2d(h_conv1_drop, W_conv2, strides=[1, 1, 1, 1], padding='SAME') + b_conv2
     h_conv2_BN = tf.layers.batch_normalization(h_conv2, training=True)
-    h_conv2_res = tf.concat([h_conv2_BN, x_Reshape], axis=3)  # 33 feature maps now == 32 + 1
+    h_conv2_res = h_conv2_BN + x_Reshape  # 32 feature maps -> shortcut connection
     h_conv2_Acti = tf.nn.leaky_relu(h_conv2_res)
     h_conv2_drop = tf.nn.dropout(h_conv2_Acti, keep_prob, noise_shape=[tf.shape(h_conv2_Acti)[0], 1, 1, tf.shape(h_conv2_Acti)[3]])
 
@@ -44,7 +44,7 @@ def ResNet(Input, keep_prob):
 
     # Second Residual Block
     # Third Convolutional Layer
-    W_conv3 = weight_variable([3, 3, 33, 64])
+    W_conv3 = weight_variable([3, 3, 32, 64])
     b_conv3 = bias_variable([64])
     h_conv3 = tf.nn.conv2d(h_pool1, W_conv3, strides=[1, 1, 1, 1], padding='SAME') + b_conv3
     h_conv3_BN = tf.layers.batch_normalization(h_conv3, training=True)
@@ -56,7 +56,7 @@ def ResNet(Input, keep_prob):
     b_conv4 = bias_variable([64])
     h_conv4 = tf.nn.conv2d(h_conv3_drop, W_conv4, strides=[1, 1, 1, 1], padding='SAME') + b_conv4
     h_conv4_BN = tf.layers.batch_normalization(h_conv4, training=True)
-    h_conv4_res = tf.concat([h_conv4_BN, h_pool1], axis=3)  # 97 feature maps now == 33 + 64
+    h_conv4_res = h_conv4_BN + h_conv3_drop # 64 feature maps
     h_conv4_Acti = tf.nn.leaky_relu(h_conv4_res)
     h_conv4_drop = tf.nn.dropout(h_conv4_Acti, keep_prob, noise_shape=[tf.shape(h_conv4_Acti)[0], 1, 1, tf.shape(h_conv4_Acti)[3]])
 
@@ -65,7 +65,7 @@ def ResNet(Input, keep_prob):
 
     # Third Residual Block
     # Fifth Convolutional Layer
-    W_conv5 = weight_variable([3, 3, 97, 128])
+    W_conv5 = weight_variable([3, 3, 64, 128])
     b_conv5 = bias_variable([128])
     h_conv5 = tf.nn.conv2d(h_pool2, W_conv5, strides=[1, 1, 1, 1], padding='SAME') + b_conv5
     h_conv5_BN = tf.layers.batch_normalization(h_conv5, training=True)
@@ -77,7 +77,7 @@ def ResNet(Input, keep_prob):
     b_conv6 = bias_variable([128])
     h_conv6 = tf.nn.conv2d(h_conv5_drop, W_conv6, strides=[1, 1, 1, 1], padding='SAME') + b_conv6
     h_conv6_BN = tf.layers.batch_normalization(h_conv6, training=True)
-    h_conv6_res = tf.concat([h_conv6_BN, h_pool2], axis=3)  # 225 feature maps now == 97 + 127
+    h_conv6_res = h_conv6_BN + h_conv5_drop  # 128 feature maps
     h_conv6_Acti = tf.nn.leaky_relu(h_conv6_res)
     h_conv6_drop = tf.nn.dropout(h_conv6_Acti, keep_prob, noise_shape=[tf.shape(h_conv6_Acti)[0], 1, 1, tf.shape(h_conv6_Acti)[3]])
 
@@ -85,10 +85,10 @@ def ResNet(Input, keep_prob):
     h_pool3 = tf.nn.max_pool(h_conv6_drop, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
 
     # Flatten Layer
-    h_pool6_flat = tf.reshape(h_pool3, [-1, 8 * 8 * 225])
+    h_pool6_flat = tf.reshape(h_pool3, [-1, 8 * 8 * 128])
 
     # First Fully Connected Layer
-    W_fc1 = weight_variable([8 * 8 * 225, 512])
+    W_fc1 = weight_variable([8 * 8 * 128, 512])
     b_fc1 = bias_variable([512])
     h_fc1 = tf.matmul(h_pool6_flat, W_fc1) + b_fc1
     h_fc1_BN = tf.layers.batch_normalization(h_fc1, training=True)
