@@ -346,13 +346,13 @@ We provide a BibTeX entry below.
 	publisher={IOP Publishing}
 }
 
-@ARTICLE{hou2022deep,
-	AUTHOR={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},   
-	TITLE={Deep Feature Mining via the Attention-Based Bidirectional Long Short Term Memory Graph Convolutional Neural Network for Human Motor Imagery Recognition},
-	JOURNAL={Frontiers in Bioengineering and Biotechnology},      
-	VOLUME={9},      
-	YEAR={Feb. 2022},      
-	URL={https://www.frontiersin.org/article/10.3389/fbioe.2021.706229},       
+@article{hou2022deep,
+	author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},   
+	title={Deep Feature Mining via the Attention-Based Bidirectional Long Short Term Memory Graph Convolutional Neural Network for Human Motor Imagery Recognition},
+	journal={Frontiers in Bioengineering and Biotechnology},      
+	volume={9},      
+	year={Feb. 2022},      
+	url={https://www.frontiersin.org/article/10.3389/fbioe.2021.706229},       
 	DOI={10.3389/fbioe.2021.706229},      
 	ISSN={2296-4185},
 }
