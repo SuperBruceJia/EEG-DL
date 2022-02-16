@@ -335,29 +335,32 @@ If you find our library useful, please considering citing our paper in your publ
 We provide a BibTeX entry below.
 
 ```bibtex
-@article{hou2019novel,  
-    year = 2020,  
-    month = {feb},  
-    publisher = {IOP Publishing},  
-    volume = {17},  
-    number = {1},  
-    pages = {016048},  
-    author = {Yimin Hou and Lu Zhou and Shuyue Jia and Xiangmin Lun},  
-    title = {A novel approach of decoding {EEG} four-class motor imagery tasks via scout {ESI} and {CNN}},  
-    journal = {Journal of Neural Engineering}  
+@article{hou2020novel,
+	title={A novel approach of decoding EEG four-class motor imagery tasks via scout ESI and CNN},
+	author={Hou, Yimin and Zhou, Lu and Jia, Shuyue and Lun, Xiangmin},
+	journal={Journal of neural engineering},
+	volume={17},
+	number={1},
+	pages={016048},
+	year={Feb. 2020},
+	publisher={IOP Publishing}
+}
+
+@ARTICLE{hou2022deep,
+	AUTHOR={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},   
+	TITLE={Deep Feature Mining via the Attention-Based Bidirectional Long Short Term Memory Graph Convolutional Neural Network for Human Motor Imagery Recognition},
+	JOURNAL={Frontiers in Bioengineering and Biotechnology},      
+	VOLUME={9},      
+	YEAR={Feb. 2022},      
+	URL={https://www.frontiersin.org/article/10.3389/fbioe.2021.706229},       
+	DOI={10.3389/fbioe.2021.706229},      
+	ISSN={2296-4185},
 }
 
 @article{Lun2020GCNs,
   title={GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals},
   author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Lv, Jinglei},
   journal={arXiv preprint arXiv:2006.08924},
-  year={2022}
-}
-
-@article{Hou2020DeepFM,
-  title={Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition},
-  author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},
-  journal={Frontiers in Bioengineering and Biotechnology},
   year={2022}
 }
 
