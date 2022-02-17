@@ -393,7 +393,7 @@ Our papers can be downloaded from:
 
 --------------------------------------------------------------------------------
 
-3. [Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition](https://arxiv.org/abs/2005.00777)
+3. [Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full)
 
 <div>
     <div style="text-align:center">
