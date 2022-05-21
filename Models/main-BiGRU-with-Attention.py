@@ -8,6 +8,7 @@ from __future__ import division
 
 # Hide the Configuration and Warnings
 import os
+
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = '3'
 
 import random
@@ -42,19 +43,19 @@ test_labels = tf.one_hot(indices=test_labels, depth=4)
 test_labels = tf.squeeze(test_labels).eval(session=sess)
 
 # Model Hyper-parameters
-n_input  = 64       # The input size of signals at each time
-max_time = 64       # The unfolded time slices of the BiGRU Model
-gru_size = 256      # The number of GRUs inside the BiGRU Model
+n_input = 64  # The input size of signals at each time
+max_time = 64  # The unfolded time slices of the BiGRU Model
+gru_size = 256  # The number of GRUs inside the BiGRU Model
 attention_size = 8  # The number of neurons of fully-connected layer inside the Attention Mechanism
 
-n_class   = 4     # The number of classification classes
-n_hidden  = 64    # The number of hidden units in the first fully-connected layer
-num_epoch = 300   # The number of Epochs that the Model run
+n_class = 4  # The number of classification classes
+n_hidden = 64  # The number of hidden units in the first fully-connected layer
+num_epoch = 300  # The number of Epochs that the Model run
 keep_rate = 0.75  # Keep rate of the Dropout
 
 lr = tf.constant(1e-4, dtype=tf.float32)  # Learning rate
-lr_decay_epoch = 50    # Every (50) epochs, the learning rate decays
-lr_decay       = 0.50  # Learning rate Decay by (50%)
+lr_decay_epoch = 50  # Every (50) epochs, the learning rate decays
+lr_decay = 0.50  # Learning rate Decay by (50%)
 
 batch_size = 1024
 n_batch = train_data.shape[0] // batch_size
@@ -62,9 +63,9 @@ n_batch = train_data.shape[0] // batch_size
 # Initialize Model Parameters (Network Weights and Biases)
 # This Model only uses Two fully-connected layers, and u sure can add extra layers DIY
 weights_1 = tf.Variable(tf.truncated_normal([2 * gru_size, n_hidden], stddev=0.01))
-biases_1  = tf.Variable(tf.constant(0.01, shape=[n_hidden]))
+biases_1 = tf.Variable(tf.constant(0.01, shape=[n_hidden]))
 weights_2 = tf.Variable(tf.truncated_normal([n_hidden, n_class], stddev=0.01))
-biases_2  = tf.Variable(tf.constant(0.01, shape=[n_class]))
+biases_2 = tf.Variable(tf.constant(0.01, shape=[n_class]))
 
 # Define Placeholders
 x = tf.placeholder(tf.float32, [None, 64 * 64])
@@ -122,12 +123,15 @@ for epoch in range(num_epoch + 1):
     # Show Accuracy and Loss on Training and Test Set
     # Here, for training set, we only show the result of first 100 samples
     # If u want to show the result on the entire training set, please modify it.
-    train_accuracy, train_loss = sess.run([Global_Average_Accuracy, loss], feed_dict={x: train_data[0:100], y: train_labels[0:100], keep_prob: 1.0})
-    Test_summary, test_accuracy, test_loss = sess.run([merged, Global_Average_Accuracy, loss], feed_dict={x: test_data, y: test_labels, keep_prob: 1.0})
+    train_accuracy, train_loss = sess.run([Global_Average_Accuracy, loss],
+                                          feed_dict={x: train_data[0:100], y: train_labels[0:100], keep_prob: 1.0})
+    Test_summary, test_accuracy, test_loss = sess.run([merged, Global_Average_Accuracy, loss],
+                                                      feed_dict={x: test_data, y: test_labels, keep_prob: 1.0})
     test_writer.add_summary(Test_summary, epoch)
 
     # Show the Model Capability
-    print("Iter " + str(epoch) + ", Testing Accuracy: " + str(test_accuracy) + ", Training Accuracy: " + str(train_accuracy))
+    print("Iter " + str(epoch) + ", Testing Accuracy: " + str(test_accuracy) + ", Training Accuracy: " + str(
+        train_accuracy))
     print("Iter " + str(epoch) + ", Testing Loss: " + str(test_loss) + ", Training Loss: " + str(train_loss))
     print("Learning rate is ", learning_rate)
     print('\n')

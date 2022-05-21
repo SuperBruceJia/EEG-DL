@@ -4,6 +4,7 @@
 # Import useful packages
 import tensorflow as tf
 
+
 def evaluation(y, prediction):
     '''
 
@@ -270,7 +271,8 @@ def evaluation(y, prediction):
                 Prediction_T4 = T1_T4 + T2_T4 + T3_T4 + T4_T4
 
                 p0 = (T1_T1 + T2_T2 + T3_T3 + T4_T4) / Test_Set_Num
-                pe = (Actual_T1 * Prediction_T1 + Actual_T2 * Prediction_T2 + Actual_T3 * Prediction_T3 + Actual_T4 * Prediction_T4) / \
+                pe = (
+                                 Actual_T1 * Prediction_T1 + Actual_T2 * Prediction_T2 + Actual_T3 * Prediction_T3 + Actual_T4 * Prediction_T4) / \
                      (Test_Set_Num * Test_Set_Num)
 
                 Kappa_Metric = (p0 - pe) / (1 - pe)
