@@ -17,7 +17,7 @@ def download_file(url, index):
     return local_filename
 
 
-for i in range(45, 110):
+for i in range(1, 110):
 
     if i < 10:
         root_link = "https://archive.physionet.org/pn4/eegmmidb/S00" + str(i) + "/"
