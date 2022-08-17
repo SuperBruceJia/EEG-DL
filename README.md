@@ -150,7 +150,9 @@
 
 4. Bayesian Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) [[Codes]](https://github.com/SuperBruceJia/EEG-BayesianCNN)
 
-5. Transformer Model [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py)
+5. Transformer Model [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) [[Presentation]](https://github.com/SuperBruceJia/paper-reading/raw/master/paper-submiting/Towards%20Universal%20Models%20with%20NLP%20for%20Computer%20Vision%20Transformer%20and%20Attention%20Mechanism.pdf)
+
+6. Self-supervised Learning (e.g., Contrastive Learning) [[Presentation]](https://github.com/SuperBruceJia/paper-reading/raw/master/paper-submiting/Self-Supervised%20Learning%20in%20Computer%20Vision-%20Past%2C%20Present%2C%20Trends.pdf)
 
 ## Common Issues
 1. **ValueError: Cannot feed value of shape (1024, 1) for Tensor 'input/label:0', which has shape '(1024,)'**
