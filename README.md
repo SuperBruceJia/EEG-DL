@@ -371,10 +371,10 @@ We provide a BibTeX entry below.
 }
 
 @article{Jia2020AttentionGCN,
-  title={Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals},
-  author={Jia, Shuyue and Hou, Yimin and Lun, Xiangmin and Lv, Jinglei},
-  journal={arXiv preprint arXiv:2007.13484},
-  year={2022}
+	title={Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals},
+	author={Jia, Shuyue and Hou, Yimin and Lun, Xiangmin and Lv, Jinglei},
+	journal={arXiv preprint arXiv:2007.13484},
+	year={2022}
 }
 ```
 
