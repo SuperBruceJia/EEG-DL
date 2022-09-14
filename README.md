@@ -367,7 +367,7 @@ We provide a BibTeX entry below.
 	year={Feb. 2022},      
 	url={https://www.frontiersin.org/article/10.3389/fbioe.2021.706229},       
 	DOI={10.3389/fbioe.2021.706229},      
-	ISSN={2296-4185},
+	ISSN={2296-4185}
 }
 
 @article{Jia2020AttentionGCN,
