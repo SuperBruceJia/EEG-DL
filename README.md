@@ -431,5 +431,5 @@ We always welcome contributions to help make EEG-DL Library better. If you would
 
 ## Organizations
 
-The library was created and open-sourced by Shuyue Jia, supervised by Prof. Yimin Hou at the School of Automation Engineering, Northeast Electric Power University, Jilin, Jilin, China.<br>
+The library was created and open-sourced by Shuyue Jia, supervised by Prof. Yimin Hou, at the School of Automation Engineering, Northeast Electric Power University, Jilin, Jilin, China.<br>
 <a href="http://www.neepu.edu.cn/"> <img width="150" height="150" src="https://github.com/SuperBruceJia/EEG-DL/raw/master/NEEPU.png"></a>
