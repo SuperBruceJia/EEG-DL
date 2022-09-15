@@ -341,10 +341,10 @@ We provide a BibTeX entry below.
 	author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Hao, Ziqian and Shi, Yan and Li, Yang and Zeng, Rui and Lv, Jinglei},
 	journal={IEEE Transactions on Neural Networks and Learning Systems}, 
 	title={{GCNs-Net}: A Graph Convolutional Neural Network Approach for Decoding Time-Resolved EEG Motor Imagery Signals}, 
-	year={Sept. 2022},
 	volume={},
 	number={},
 	pages={1-12},
+	year={Sept. 2022},
 	doi={10.1109/TNNLS.2022.3202569}
 }
   
@@ -356,7 +356,9 @@ We provide a BibTeX entry below.
 	number={1},
 	pages={016048},
 	year={Feb. 2020},
-	publisher={IOP Publishing}
+	publisher={IOP Publishing},
+	doi={10.1088/1741-2552/ab4af6}
+	
 }
 
 @article{hou2022deep,
@@ -366,7 +368,7 @@ We provide a BibTeX entry below.
 	volume={9},      
 	year={Feb. 2022},      
 	url={https://www.frontiersin.org/article/10.3389/fbioe.2021.706229},       
-	DOI={10.3389/fbioe.2021.706229},      
+	doi={10.3389/fbioe.2021.706229},      
 	ISSN={2296-4185}
 }
 
@@ -394,7 +396,7 @@ Our papers can be downloaded from:
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.jpg" alt="Project2">
+    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.png" alt="Project2">
 </div>
 
 --------------------------------------------------------------------------------
