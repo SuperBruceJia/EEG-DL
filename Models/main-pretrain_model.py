@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-@Author: Bruce Shuyue Jia
-@Date: Nov 5, 2021
-
-Notice: This code is only for reference.
+Notice: 
+[1] This code is only for reference.
+Please modify the codes to fit your own data.
+[2] The Code is based on TensorFlow 2.X.
+Please install the TensorFlow 2.X version.
 """
 
 import numpy as np
@@ -101,8 +102,8 @@ class TokenAndPositionEmbedding(layers.Layer):
         return out
 
 
-maxlen = 3
-embed_dim = 97  # Embedding size for each token
+maxlen = 3  # (Maximum) length of the signals
+embed_dim = 97  # Number of features of one time point
 num_heads = 8  # Number of attention heads
 ff_dim = 64  # Hidden layer size in feed forward network inside transformer
 
@@ -141,4 +142,3 @@ history = model.fit(
 )
 
 model.save_weights('model_weight')
-
