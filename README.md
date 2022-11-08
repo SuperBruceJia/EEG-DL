@@ -68,7 +68,7 @@
 | 24    | Attention-based Bidirectional Gated Recurrent Unit [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [BiGRU with Attention](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiGRU_with_Attention.py) |
 | 25    | Attention-based BiLSTM + GCN [[Paper]](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full) | [Attention-based BiLSTM](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/BiLSTM_with_Attention.py) <br> [GCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/GCN_Model.py) |
 | 26    | Transformer [[Paper]](https://arxiv.org/abs/1706.03762) [[Paper]](https://arxiv.org/abs/2010.11929) | [Transformer](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) |
-| 26    | Transfer Learning with Transformer <br> (**This code is only for reference!**) <br> (**You can modify the codes to fit your applications.**) | Stage 1: [Pre-train](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-pretrain_model.py) <br> Stage 2: [Fine Tuning](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-finetuning_model.py) |
+| 26    | Transfer Learning with Transformer <br> (**This code is only for reference!**) <br> (**You can modify the codes to fit your data.**) | Stage 1: [Pre-train](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-pretrain_model.py) <br> Stage 2: [Fine Tuning](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-finetuning_model.py) |
 
 **One EEG Motor Imagery (MI) benchmark** is currently supported. Other benchmarks in the field of EEG or BCI can be found [here](https://github.com/meagmohit/EEG-Datasets).
 
