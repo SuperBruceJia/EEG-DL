@@ -150,9 +150,17 @@
 
 4. Bayesian Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) [[Codes]](https://github.com/SuperBruceJia/EEG-BayesianCNN)
 
-5. Transformer / Self-attention [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) [[Presentation]](https://github.com/SuperBruceJia/paper-reading/raw/master/paper-submiting/Towards%20Universal%20Models%20with%20NLP%20for%20Computer%20Vision%20Transformer%20and%20Attention%20Mechanism.pdf)
+5. Transformer / Self-attention / Non-local Modeling [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) 
 
-6. Self-supervised Learning (e.g., Contrastive Learning) [[Presentation]](https://github.com/SuperBruceJia/paper-reading/raw/master/paper-submiting/Self-Supervised%20Learning%20in%20Computer%20Vision-%20Past%2C%20Present%2C%20Trends.pdf)
+	[Non-local Modeling and Local Modeling] [[Paper]](https://shuyuej.com/files/MMSP/MMSP_paper.pdf) [[Slides]](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf) [[Poster]](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf)
+
+	[[视觉Transformer年度进展评述 (in Chinese)]](https://github.com/SuperBruceJia/paper-reading/raw/master/Transformer/%E8%A7%86%E8%A7%89Transformer%20%E5%B9%B4%E5%BA%A6%E8%BF%9B%E5%B1%95%E8%AF%84%E8%BF%B0.pdf) 
+
+	[[Transformer and Attention Mechanism]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Towards%20Universal%20Models%20with%20NLP%20for%20Computer%20Vision.pdf) 
+
+	[[Swin Transformer]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Swin%20Transformer%20and%205%20Reasons%20to%20Use%20Transformer:Attention%20in%20Computer%20Vision.pdf)
+
+6. Self-supervised Learning + Transformer [[Presentation]](https://github.com/SuperBruceJia/paper-reading/raw/master/Transformer/Self-Supervised%20Learning%20in%20Computer%20Vision-%20Past%2C%20Present%2C%20Trends.pdf)
 
 ## Common Issues
 1. **ValueError: Cannot feed value of shape (1024, 1) for Tensor 'input/label:0', which has shape '(1024,)'**
@@ -228,7 +236,7 @@
 
 5. **IndexError: list index out of range**
     
-    To solve this issue, first of all, please double-check the Python Environment. ***Python 2.7 Environment is highly recommended.*** Besides, please install ***0.1.11*** version of ***pydeflib*** Python package. The install instruction is as follows:
+    To solve this issue, first of all, please double-check your Python Environment. **Python 2.7 Environment is required.** Besides, please install ***0.1.11*** version of ***pyEDFlib***. The installation instruction is as follows:
     
     ```python
     $ pip install pyEDFlib==0.1.11
