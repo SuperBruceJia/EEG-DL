@@ -152,7 +152,7 @@
 
 5. Transformer / Self-attention / Non-local Modeling [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) 
 
-	[Non-local Modeling and Local Modeling] [[Paper]](https://shuyuej.com/files/MMSP/MMSP_paper.pdf) [[Slides]](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf) [[Poster]](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf)
+	[Why Non-local Modeling?] [[Paper]](https://shuyuej.com/files/MMSP/MMSP_paper.pdf) [[Slides]](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf) [[Poster]](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf)
 	
 	[[Why Transformer?]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Swin%20Transformer%20and%205%20Reasons%20to%20Use%20Transformer:Attention%20in%20Computer%20Vision.pdf)
 	
