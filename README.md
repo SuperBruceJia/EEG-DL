@@ -153,12 +153,12 @@
 5. Transformer / Self-attention / Non-local Modeling [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) 
 
 	[Non-local Modeling and Local Modeling] [[Paper]](https://shuyuej.com/files/MMSP/MMSP_paper.pdf) [[Slides]](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf) [[Poster]](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf)
-
+	
+	[[Why Transformer?]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Swin%20Transformer%20and%205%20Reasons%20to%20Use%20Transformer:Attention%20in%20Computer%20Vision.pdf)
+	
+	[[Transformer and Attention Mechanism Introduction]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Towards%20Universal%20Models%20with%20NLP%20for%20Computer%20Vision.pdf) 
+		
 	[[视觉Transformer年度进展评述 (in Chinese)]](https://github.com/SuperBruceJia/paper-reading/raw/master/Transformer/%E8%A7%86%E8%A7%89Transformer%20%E5%B9%B4%E5%BA%A6%E8%BF%9B%E5%B1%95%E8%AF%84%E8%BF%B0.pdf) 
-
-	[[Transformer and Attention Mechanism]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Towards%20Universal%20Models%20with%20NLP%20for%20Computer%20Vision.pdf) 
-
-	[[Swin Transformer]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Swin%20Transformer%20and%205%20Reasons%20to%20Use%20Transformer:Attention%20in%20Computer%20Vision.pdf)
 
 6. Self-supervised Learning + Transformer [[Presentation]](https://github.com/SuperBruceJia/paper-reading/raw/master/Transformer/Self-Supervised%20Learning%20in%20Computer%20Vision-%20Past%2C%20Present%2C%20Trends.pdf)
 
