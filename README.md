@@ -403,7 +403,7 @@ Our papers can be downloaded from:
 
 <div>
     <div style="text-align:center">
-    <img width=60%device-width src="https://user-images.githubusercontent.com/31528604/200832532-4a2df39e-fc75-4586-b00f-2225df4d3b29.jpg" alt="Project1">
+    <img width=60%device-width src="https://user-images.githubusercontent.com/31528604/200834151-647319e6-9f6c-428b-b763-36d8859acab9.png" alt="Project1">
 </div>
 
 --------------------------------------------------------------------------------
@@ -413,7 +413,7 @@ Our papers can be downloaded from:
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.png" alt="Project2">
+    <img width=100%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.png" alt="Project2">
 </div>
 
 --------------------------------------------------------------------------------
@@ -422,12 +422,12 @@ Our papers can be downloaded from:
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture3.jpg" alt="Project3.1">
+    <img width=100%device-width src="https://user-images.githubusercontent.com/31528604/200833742-1b775246-7bb8-4add-a6f9-210f1c5249a0.JPEG" alt="Project3.1">
 </div>
 
 <div>
     <div style="text-align:center">
-    <img width=99%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture4.jpg" alt="Project4.1">
+    <img width=100%device-width src="https://user-images.githubusercontent.com/31528604/200833795-157eba9e-0f1b-4f24-8038-8fb385fedcbd.JPEG" alt="Project4.1">
 </div>
 
 --------------------------------------------------------------------------------
