@@ -346,45 +346,45 @@ We provide a BibTeX entry below.
 
 ```bibtex
 @article{hou2022gcn,
-	author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Hao, Ziqian and Shi, Yan and Li, Yang and Zeng, Rui and Lv, Jinglei},
-	journal={IEEE Transactions on Neural Networks and Learning Systems}, 
-	title={{GCNs-Net}: A Graph Convolutional Neural Network Approach for Decoding Time-Resolved EEG Motor Imagery Signals}, 
-	volume={},
-	number={},
-	pages={1-12},
-	year={Sept. 2022},
-	doi={10.1109/TNNLS.2022.3202569}
+	author  = {Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Hao, Ziqian and Shi, Yan and Li, Yang and Zeng, Rui and Lv, Jinglei},
+	journal = {IEEE Transactions on Neural Networks and Learning Systems}, 
+	title   = {{GCNs-Net}: A Graph Convolutional Neural Network Approach for Decoding Time-Resolved EEG Motor Imagery Signals}, 
+	volume  = {},
+	number  = {},
+	pages   = {1-12},
+	year    = {Sept. 2022},
+	doi     = {10.1109/TNNLS.2022.3202569}
 }
   
 @article{hou2020novel,
-	title={A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout ESI and CNN},
-	author={Hou, Yimin and Zhou, Lu and Jia, Shuyue and Lun, Xiangmin},
-	journal={Journal of Neural Engineering},
-	volume={17},
-	number={1},
-	pages={016048},
-	year={Feb. 2020},
-	publisher={IOP Publishing},
-	doi={10.1088/1741-2552/ab4af6}
+	title     = {A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout ESI and CNN},
+	author    = {Hou, Yimin and Zhou, Lu and Jia, Shuyue and Lun, Xiangmin},
+	journal   = {Journal of Neural Engineering},
+	volume    = {17},
+	number    = {1},
+	pages     = {016048},
+	year      = {Feb. 2020},
+	publisher = {IOP Publishing},
+	doi       = {10.1088/1741-2552/ab4af6}
 	
 }
 
 @article{hou2022deep,
-	author={Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},   
-	title={Deep Feature Mining via the Attention-Based Bidirectional Long Short Term Memory Graph Convolutional Neural Network for Human Motor Imagery Recognition},
-	journal={Frontiers in Bioengineering and Biotechnology},      
-	volume={9},      
-	year={Feb. 2022},      
-	url={https://www.frontiersin.org/article/10.3389/fbioe.2021.706229},       
-	doi={10.3389/fbioe.2021.706229},      
-	ISSN={2296-4185}
+	author  = {Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},   
+	title   = {Deep Feature Mining via the Attention-Based Bidirectional Long Short Term Memory Graph Convolutional Neural Network for Human Motor Imagery Recognition},
+	journal = {Frontiers in Bioengineering and Biotechnology},      
+	volume  = {9},      
+	year    = {Feb. 2022},      
+	url     = {https://www.frontiersin.org/article/10.3389/fbioe.2021.706229},       
+	doi     = {10.3389/fbioe.2021.706229},      
+	ISSN    = {2296-4185}
 }
 
 @article{Jia2020AttentionGCN,
-	title={Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals},
-	author={Jia, Shuyue and Hou, Yimin and Lun, Xiangmin and Lv, Jinglei},
-	journal={arXiv preprint arXiv:2007.13484},
-	year={2022}
+	title   = {Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals},
+	author  = {Jia, Shuyue and Hou, Yimin and Lun, Xiangmin and Lv, Jinglei},
+	journal = {arXiv preprint arXiv:2007.13484},
+	year    = {2022}
 }
 ```
 
