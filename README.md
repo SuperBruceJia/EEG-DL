@@ -370,8 +370,8 @@ We provide a BibTeX entry below.
 }
 
 @article{hou2022deep,
-	author  = {Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},   
 	title   = {Deep Feature Mining via the Attention-Based Bidirectional Long Short Term Memory Graph Convolutional Neural Network for Human Motor Imagery Recognition},
+	author  = {Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Zhang, Shu and Chen, Tao and Wang, Fang and Lv, Jinglei},   
 	journal = {Frontiers in Bioengineering and Biotechnology},      
 	volume  = {9},      
 	year    = {Feb. 2022},      
