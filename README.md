@@ -30,7 +30,7 @@
 <li><a href="#Notice">Notice</a></li>
 <li><a href="#Research-Ideas">Research Ideas</a></li>
 <li><a href="#Common-Issues">Common Issues</a></li>
-<li><a href="#Structure-of-the-code">Structure of the code</a></li>
+<li><a href="#Structure-of-the-Code">Structure of the Code</a></li>
 <li><a href="#Citation">Citation</a></li>
 <li><a href="#Other-Useful-Resources">Other Useful Resources</a></li>
 <li><a href="#Contribution">Contribution</a></li>
@@ -242,7 +242,7 @@
     $ pip install pyEDFlib==0.1.11
     ```
 
-## Structure of the code
+## Structure of the Code
 
 At the root of the project, you will see:
 
@@ -341,7 +341,7 @@ At the root of the project, you will see:
 
 ## Citation
 
-If you find our library useful, please considering citing our paper in your publications.
+If you find our library useful, please considering citing our papers in your publications.
 We provide a BibTeX entry below.
 
 ```bibtex
