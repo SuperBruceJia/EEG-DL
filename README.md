@@ -408,7 +408,7 @@ Our papers can be downloaded from:
 --------------------------------------------------------------------------------
 
 2. [GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals](https://ieeexplore.ieee.org/document/9889159)<br> 
-*Presentation for this work can be found [here](https://drive.google.com/file/d/1ecMbtZV2eH14sRAqWIIf1iRvDAC7DMDs/view?usp=sharing).*<br>
+***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/EEG/EEG-Research.pdf).*<br>
 
 <div>
     <div style="text-align:center">
@@ -417,7 +417,8 @@ Our papers can be downloaded from:
 
 --------------------------------------------------------------------------------
 
-3. [Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full)
+3. [Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full)<br>
+***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/EEG/EEG-Research.pdf).*<br>
 
 <div>
     <div style="text-align:center">
@@ -435,7 +436,7 @@ Our papers can be downloaded from:
 
 ## Other Useful Resources
 
-I think the following presentations could be helpful when you guys get engaged with Python & TensorFlow or build models.
+I think the following presentations could be helpful when you guys get engaged with Python and TensorFlow.
 
 1. Python Environment Setting-up Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/Python-Environment-Set-up.pptx)
 
@@ -445,7 +446,7 @@ I think the following presentations could be helpful when you guys get engaged w
 
 ## Contribution
 
-We always welcome contributions to help make EEG-DL Library better. If you would like to contribute or have any question, please feel free to <a href="http://shuyuej.com/">contact me</a>, and my email is <a href="shuyuej@ieee.org">shuyuej@ieee.org</a>.
+We always welcome contributions to help make EEG-DL Library better. If you would like to contribute or have any question, please feel free to email me at shuyuej@ieee.org.
 
 ## Organizations
 
