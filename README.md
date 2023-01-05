@@ -345,9 +345,9 @@ We provide a BibTeX entry below.
 
 ```bibtex
 @article{hou2022gcn,
-	author  = {Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Hao, Ziqian and Shi, Yan and Li, Yang and Zeng, Rui and Lv, Jinglei},
-	journal = {IEEE Transactions on Neural Networks and Learning Systems}, 
-	title   = {{GCNs-Net}: A Graph Convolutional Neural Network Approach for Decoding Time-Resolved EEG Motor Imagery Signals}, 
+	title   = {{GCNs-Net}: A Graph Convolutional Neural Network Approach for Decoding Time-Resolved EEG Motor Imagery Signals},
+        author  = {Hou, Yimin and Jia, Shuyue and Lun, Xiangmin and Hao, Ziqian and Shi, Yan and Li, Yang and Zeng, Rui and Lv, Jinglei},
+	journal = {IEEE Transactions on Neural Networks and Learning Systems},
 	volume  = {},
 	number  = {},
 	pages   = {1-12},
