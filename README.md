@@ -141,7 +141,7 @@
 4. The **Dataset Loader** can be changed or modified from [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/DatasetAPI/DataLoader.py).
 
 ## Research Ideas
-1. Dynamic Graph Convolutional Neural Networks [[Paper Survey]](https://github.com/SuperBruceJia/paper-reading/raw/master/Graph-Neural-Network/Dynamic-GCN-Survey.pptx) [[Paper Reading]](https://github.com/SuperBruceJia/paper-reading/tree/master/Graph-Neural-Network/Dynamic-GCN-Papers)
+1. Dynamic Graph Convolutional Neural Networks [[Paper Survey]](https://shuyuej.com/files/EEG/Dynamic-GCN-Survey.pdf) [[Paper Reading]](https://github.com/SuperBruceJia/paper-reading/tree/master/Graph-Neural-Network/Dynamic-GCN-Papers)
 
 2. Neural Architecture Search / AutoML (Automatic Machine Learning) [[Tsinghua AutoGraph]](https://github.com/THUMNLab/AutoGL)
 
