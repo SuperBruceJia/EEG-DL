@@ -149,7 +149,7 @@
 
 4. Bayesian Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) [[Codes]](https://github.com/SuperBruceJia/EEG-BayesianCNN)
 
-5. Transformer / Self-attention / Non-local Modeling [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) 
+5. Transformer / Self-attention / Non-local Modeling [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Transformer Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) [[Non-local Modeling PyTorch Codes]](https://github.com/SuperBruceJia/NLNet-IQA)
 
 	[[Why Non-local Modeling?]](https://github.com/SuperBruceJia/NLNet-IQA) [[Paper]](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf) [[A Detailed Presentation]](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf) [[Slides]](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf) [[Poster]](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf)
 	
