@@ -356,7 +356,7 @@ We provide a BibTeX entry below.
 }
   
 @article{hou2020novel,
-	title     = {A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout ESI and CNN},
+	title     = {A Novel Approach of Decoding EEG Four-class Motor Imagery Tasks via Scout {ESI} and {CNN}},
 	author    = {Hou, Yimin and Zhou, Lu and Jia, Shuyue and Lun, Xiangmin},
 	journal   = {Journal of Neural Engineering},
 	volume    = {17},
@@ -380,7 +380,7 @@ We provide a BibTeX entry below.
 }
 
 @article{Jia2020AttentionGCN,
-	title   = {Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals},
+	title   = {Attention-based Graph {ResNet} for Motor Intent Detection from Raw EEG signals},
 	author  = {Jia, Shuyue and Hou, Yimin and Lun, Xiangmin and Lv, Jinglei},
 	journal = {arXiv preprint arXiv:2007.13484},
 	year    = {2022}
