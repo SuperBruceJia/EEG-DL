@@ -49,7 +49,7 @@
 | 5     | Densely Connected Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1608.06993) | [DenseNet](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/DenseCNN.py) |
 | 6     | Fully Convolutional Neural Networks [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf) | [FCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/Fully_Conv_CNN.py) |
 | 7     | One Shot Learning with Siamese Networks (CNNs Backbone) <br> [[Paper]](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) [[Tutorial]](https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d) | [Siamese Networks](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/Siamese_Network.py) |
-| 8     | Graph Convolutional Neural Networks <br> [[Paper]](https://ieeexplore.ieee.org/document/9889159) [[Presentation]](https://drive.google.com/file/d/1ecMbtZV2eH14sRAqWIIf1iRvDAC7DMDs/view?usp=sharing) [[Tutorial]](https://github.com/mdeff/cnn_graph) <br> [[GCN / GNN Summary for Chinese Readers]](https://github.com/wangyouze/GNN-algorithms) <br> [[GNN-related Algorithms Review for Chinese Readers]](https://github.com/LYuhang/GNN_Review) <br> [[Literature of Deep Learning for Graphs]](https://github.com/DeepGraphLearning/LiteratureDL4Graph) | [GCN / Graph CNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/GCN_Model.py) |
+| 8     | Graph Convolutional Neural Networks <br> [[A Detailed Presentation]](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf) <br> [[Paper]](https://ieeexplore.ieee.org/document/9889159) [[Old Presentation]](https://drive.google.com/file/d/1ecMbtZV2eH14sRAqWIIf1iRvDAC7DMDs/view?usp=sharing) [[Tutorial]](https://github.com/mdeff/cnn_graph) <br> [[GCN / GNN Summary for Chinese Readers]](https://github.com/wangyouze/GNN-algorithms) <br> [[GNN-related Algorithms Review for Chinese Readers]](https://github.com/LYuhang/GNN_Review) <br> [[Literature of Deep Learning for Graphs]](https://github.com/DeepGraphLearning/LiteratureDL4Graph) | [GCN / Graph CNN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/GCN_Model.py) |
 | 9    | Deep Residual Graph Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/2007.13484) | [ResGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/ResGCN_Model.py) | 
 | 10    | Densely Connected Graph Convolutional Neural Networks  | [DenseGCN](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/Network/lib_for_GCN/DenseGCN_Model.py) |
 | 11    | Bayesian Convolutional Neural Network <br> via Variational Inference <br> [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) <br> (PyTorch Implementation by [Kumar Shridhar](https://github.com/kumar-shridhar)) <br> [[Latest Codes]](https://github.com/kumar-shridhar/PyTorch-BayesianCNN) | [Bayesian CNNs](https://github.com/SuperBruceJia/EEG-BayesianCNN) |
@@ -145,13 +145,13 @@
 
 2. Neural Architecture Search / AutoML (Automatic Machine Learning) [[Tsinghua AutoGraph]](https://github.com/THUMNLab/AutoGL)
 
-3. Reinforcement Learning Algorithms (e.g., Deep Q-Learning) [[Tsinghua Tianshou]](https://github.com/thu-ml/tianshou) [[Doc for Chinese Readers]](https://tianshou.readthedocs.io/zh/latest/docs/toc.html)
+3. Reinforcement Learning Algorithms (_e.g._, Deep Q-Learning) [[Tsinghua Tianshou]](https://github.com/thu-ml/tianshou) [[Doc for Chinese Readers]](https://tianshou.readthedocs.io/zh/latest/docs/toc.html)
 
 4. Bayesian Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) [[Codes]](https://github.com/SuperBruceJia/EEG-BayesianCNN)
 
 5. Transformer / Self-attention / Non-local Modeling [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) 
 
-	[[Why Non-local Modeling?]](https://github.com/SuperBruceJia/NLNet-IQA) [[Paper]](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf) [[Slides]](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf) [[Poster]](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf)
+	[[Why Non-local Modeling?]](https://github.com/SuperBruceJia/NLNet-IQA) [[Paper]](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf) [[A Detailed Presentation]](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf) [[Slides]](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf) [[Poster]](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf)
 	
 	[[Why Transformer?]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Swin%20Transformer%20and%205%20Reasons%20to%20Use%20Transformer:Attention%20in%20Computer%20Vision.pdf)
 	
@@ -408,7 +408,7 @@ Our papers can be downloaded from:
 --------------------------------------------------------------------------------
 
 2. [GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals](https://ieeexplore.ieee.org/document/9889159)<br> 
-***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/EEG/EEG-Research.pdf).*<br>
+***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf).*<br>
 
 <div>
     <div style="text-align:center">
@@ -418,7 +418,7 @@ Our papers can be downloaded from:
 --------------------------------------------------------------------------------
 
 3. [Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full)<br>
-***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/EEG/EEG-Research.pdf).*<br>
+***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf).*<br>
 
 <div>
     <div style="text-align:center">
@@ -436,7 +436,7 @@ Our papers can be downloaded from:
 
 ## Other Useful Resources
 
-I think the following presentations could be helpful when you guys get engaged with Python and TensorFlow.
+I think the following presentations would be helpful when you guys get engaged with Python and TensorFlow.
 
 1. Python Environment Setting-up Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/Python-Environment-Set-up.pptx)
 
@@ -446,7 +446,7 @@ I think the following presentations could be helpful when you guys get engaged w
 
 ## Contribution
 
-We always welcome contributions to help make EEG-DL Library better. If you would like to contribute or have any question, please feel free to email me at shuyuej@ieee.org.
+We always welcome contributions to help make EEG-DL Library better. If you would like to contribute or have any questions, please don't hesitate to email me at shuyuej@ieee.org.
 
 ## Organizations
 
