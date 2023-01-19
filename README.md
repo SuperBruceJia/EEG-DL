@@ -408,7 +408,7 @@ Our papers can be downloaded from:
 --------------------------------------------------------------------------------
 
 2. [GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-resolved EEG Motor Imagery Signals](https://ieeexplore.ieee.org/document/9889159)<br> 
-***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf).*<br>
+***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/EEG/GCNs-Net-Presentation.pdf).*<br>
 
 <div>
     <div style="text-align:center">
@@ -418,7 +418,7 @@ Our papers can be downloaded from:
 --------------------------------------------------------------------------------
 
 3. [Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition](https://www.frontiersin.org/articles/10.3389/fbioe.2021.706229/full)<br>
-***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf).*<br>
+***Slides Presentation** for this work can be found [here](https://shuyuej.com/files/EEG/BiLSTM-GCN-Presentation.pdf).*<br>
 
 <div>
     <div style="text-align:center">
