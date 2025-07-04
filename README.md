@@ -412,7 +412,7 @@ Our papers can be downloaded from:
 
 <div>
     <div style="text-align:center">
-    <img width=100%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Picture2.png" alt="Project2">
+    <img width=100%device-width src="https://github.com/SuperBruceJia/SuperBruceJia.github.io/raw/master/imgs/Research/Picture2.png" alt="Project2">
 </div>
 
 --------------------------------------------------------------------------------
