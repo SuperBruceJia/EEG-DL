@@ -141,7 +141,7 @@
 4. The **Dataset Loader** can be changed or modified from [this file](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/DatasetAPI/DataLoader.py).
 
 ## Research Ideas
-1. Dynamic Graph Convolutional Neural Networks [[Paper Survey]](https://shuyuej.com/files/EEG/Dynamic-GCN-Survey.pdf) [[Paper Reading]](https://github.com/SuperBruceJia/paper-reading/tree/master/Graph-Neural-Network/Dynamic-GCN-Papers)
+1. Dynamic Graph Convolutional Neural Networks [[Paper Survey]](https://shuyuej.com/files/EEG/Dynamic-GCN-Survey.pdf)
 
 2. Neural Architecture Search / AutoML (Automatic Machine Learning) [[Tsinghua AutoGraph]](https://github.com/THUMNLab/AutoGL)
 
@@ -149,17 +149,9 @@
 
 4. Bayesian Convolutional Neural Networks [[Paper]](https://arxiv.org/abs/1901.02731) [[Thesis]](https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN/raw/master/thesis.pdf) [[Codes]](https://github.com/SuperBruceJia/EEG-BayesianCNN)
 
-5. Transformer / Self-attention / Non-local Modeling [[Paper Collections]](https://github.com/SuperBruceJia/paper-reading/tree/master/Machine-Learning/Transformer) [[Transformer Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) [[Non-local Modeling PyTorch Codes]](https://github.com/SuperBruceJia/NLNet-IQA)
+5. Transformer / Self-attention / Non-local Modeling [[Transformer Codes]](https://github.com/SuperBruceJia/EEG-DL/blob/master/Models/main-Transformer.py) [[Non-local Modeling PyTorch Codes]](https://github.com/SuperBruceJia/NLNet-IQA)
 
 	[[Why Non-local Modeling?]](https://github.com/SuperBruceJia/NLNet-IQA) [[Paper]](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf) [[A Detailed Presentation]](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf) [[Slides]](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf) [[Poster]](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf)
-	
-	[[Why Transformer?]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Swin%20Transformer%20and%205%20Reasons%20to%20Use%20Transformer:Attention%20in%20Computer%20Vision.pdf)
-	
-	[[Transformer and Attention Mechanism Introduction]](https://github.com/SuperBruceJia/paper-reading/blob/master/Transformer/Towards%20Universal%20Models%20with%20NLP%20for%20Computer%20Vision.pdf) 
-		
-	[[视觉Transformer年度进展评述 (in Chinese)]](https://github.com/SuperBruceJia/paper-reading/raw/master/Transformer/%E8%A7%86%E8%A7%89Transformer%20%E5%B9%B4%E5%BA%A6%E8%BF%9B%E5%B1%95%E8%AF%84%E8%BF%B0.pdf) 
-
-6. Self-supervised Learning + Transformer [[Presentation]](https://github.com/SuperBruceJia/paper-reading/raw/master/Transformer/Self-Supervised%20Learning%20in%20Computer%20Vision-%20Past%2C%20Present%2C%20Trends.pdf)
 
 ## Common Issues
 1. **ValueError: Cannot feed value of shape (1024, 1) for Tensor 'input/label:0', which has shape '(1024,)'**
@@ -438,11 +430,11 @@ Our papers can be downloaded from:
 
 I think the following presentations would be helpful when you guys get engaged with Python and TensorFlow.
 
-1. Python Environment Setting-up Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/Python-Environment-Set-up.pptx)
+1. Python Environment Setting-up Tutorial [download](https://shuyuej.com/files/Python.pdf)
 
-2. Usage of Cloud Server and Setting-up Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/Usage%20of%20Server%20and%20Setting%20Up.pdf)
+2. Usage of Cloud Server and Setting-up Tutorial [download](https://shuyuej.com/files/Server.pdf)
 
-3. TensorFlow for Deep Learning Tutorial [download](https://github.com/SuperBruceJia/paper-reading/raw/master/other-presentations/TensorFlow-for-Deep-Learning.pdf)
+3. TensorFlow for Deep Learning Tutorial [download](https://shuyuej.com/files/TensorFlow.pdf)
 
 ## Contribution
 
