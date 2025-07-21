@@ -11,23 +11,35 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
+from keras import backend as K
+import os
+
+# 获取当前物理GPU
+# gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
+# for gpu in gpus:
+#     tf.config.experimental.get_memory_growth(gpu, True)
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+tf.config.experimental.get_memory_growth = True
+# gpu_options = tf.GPUOptions(allow_growth=True)  # 不占满全部显存，按需分配
+# sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
+# K.set_session(sess)
 
 # Read Training Data
-train_data = pd.read_csv('training_set.csv', header=None)
+train_data = pd.read_csv('/home/teslav/EEG_DL/training_set.csv', header=None)
 train_data = np.array(train_data).astype('float32')
 
 # Read Training Labels
-train_labels = pd.read_csv('training_label.csv', header=None)
-train_labels = np.array(train_labels).astype('float32')
+train_labels = pd.read_csv('/home/teslav/EEG_DL/training_label.csv', header=None)
+train_labels = np.array(train_labels).astype('int')
 train_labels = np.squeeze(train_labels)
 
 # Read Testing Data
-test_data = pd.read_csv('test_set.csv', header=None)
+test_data = pd.read_csv('/home/teslav/EEG_DL/test_set.csv', header=None)
 test_data = np.array(test_data).astype('float32')
 
 # Read Testing Labels
-test_labels = pd.read_csv('test_label.csv', header=None)
-test_labels = np.array(test_labels).astype('float32')
+test_labels = pd.read_csv('/home/teslav/EEG_DL/test_label.csv', header=None)
+test_labels = np.array(test_labels).astype('int')
 test_labels = np.squeeze(test_labels)
 
 
@@ -64,13 +76,13 @@ class TokenAndPositionEmbedding(layers.Layer):
         return out
 
 
-maxlen = 3      # Only consider 3 input time points
-embed_dim = 97  # Features of each time point
-num_heads = 8   # Number of attention heads
-ff_dim = 64     # Hidden layer size in feed forward network inside transformer
+maxlen = 64  # Only consider 3 input time points
+embed_dim = 64  # Features of each time point
+num_heads = 8  # Number of attention heads
+ff_dim = 64  # Hidden layer size in feed forward network inside transformer
 
 # Input Time-series
-inputs = layers.Input(shape=(maxlen*embed_dim,))
+inputs = layers.Input(shape=(maxlen * embed_dim,))
 embedding_layer = TokenAndPositionEmbedding(maxlen, embed_dim)
 x = embedding_layer(inputs)
 
@@ -89,10 +101,11 @@ outputs = layers.Dense(1, activation="sigmoid")(x)
 
 model = keras.Model(inputs=inputs, outputs=outputs)
 
-model.compile(optimizer=tf.keras.optimizers.Adam(lr=1e-4),
-              loss="binary_crossentropy",
-              metrics=[tf.keras.metrics.Precision(), tf.keras.metrics.BinaryAccuracy(), tf.keras.metrics.Recall()])
+model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=1e-4), loss=tf.keras.losses.CategoricalCrossentropy(), metrics=[tf.keras.metrics.Precision(), tf.keras.metrics.categorical_accuracy, tf.keras.metrics.Recall()])
 
+
+callbacks = [keras.callbacks.TensorBoard(update_freq='epoch')]
 history = model.fit(
-    train_data, train_labels, batch_size=128, epochs=1000, validation_data=(test_data, test_labels)
+    train_data, train_labels, batch_size=128, epochs=1000, validation_data=(test_data, test_labels), callbacks=callbacks
 )
+

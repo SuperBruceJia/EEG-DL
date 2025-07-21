@@ -86,6 +86,7 @@ test_label     = ALL_Dataset(fix(row/10*9)+1:end, end);
 
 all_data       = ALL_Dataset(:, 1:4096);
 all_labels     = ALL_Dataset(:, end);
+
 %%
 xlswrite('training_set.xlsx', training_set);
 xlswrite('test_set.xlsx', test_set);

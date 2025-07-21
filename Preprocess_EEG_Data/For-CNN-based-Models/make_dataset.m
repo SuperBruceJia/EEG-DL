@@ -13,7 +13,7 @@ Time_consider = 4 / 10;
 Data_points   = Time_consider * 160;
 
 for i = 1:num_channel
-    Dataset = ['Dataset_', num2str(i), '.mat'];
+    Dataset = ['Download_Raw_EEG_Data/20-Subjects/Dataset_', num2str(i), '.mat'];
     Dataset = load(Dataset);
     Dataset = Dataset.Dataset;
     Dataset = reshape(Dataset, num_subject*num_trial, num_data);
@@ -44,7 +44,7 @@ Dataset = reshape(Stack_Dataset, [num_channel*Data_points, columns/Data_points])
 Dataset = Dataset';
 
 %% Read and Create Labels
-Labels = load('Labels_1.mat');
+Labels = load('Download_Raw_EEG_Data/20-Subjects/Labels_1.mat');
 Labels = Labels.Labels;
 Labels = reshape(Labels, num_subject*num_trial, 4);
 [row, column] = size(Labels);
